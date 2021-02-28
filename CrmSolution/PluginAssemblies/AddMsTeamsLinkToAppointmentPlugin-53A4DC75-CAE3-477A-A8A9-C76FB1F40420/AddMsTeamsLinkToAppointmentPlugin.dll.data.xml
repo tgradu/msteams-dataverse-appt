@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="AddMsTeamsLinkToAppointmentPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7081ae613b0521ec" PluginAssemblyId="53a4dc75-cae3-477a-a8a9-c76fb1f40420" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/AddMsTeamsLinkToAppointmentPlugin-53A4DC75-CAE3-477A-A8A9-C76FB1F40420/AddMsTeamsLinkToAppointmentPlugin.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="AddMsTeamsLinkToAppointmentPlugin.AddMsTeamsLinkToAppointmentActionHandler, AddMsTeamsLinkToAppointmentPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7081ae613b0521ec" PluginTypeId="b583797f-1c9a-4237-9afd-2b1edf87c148" Name="AddMsTeamsLinkToAppointmentPlugin.AddMsTeamsLinkToAppointmentActionHandler">
+      <FriendlyName>613364f0-9d73-438b-a3bf-e81c5ecd4e9d</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

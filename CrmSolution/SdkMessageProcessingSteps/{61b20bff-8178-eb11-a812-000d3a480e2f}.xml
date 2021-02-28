@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="AddMsTeamsLinkToAppointmentPlugin.AddMsTeamsLinkToAppointmentActionHandler: rc_GenerateTeamsMeetingLink of any Entity" SdkMessageProcessingStepId="{61b20bff-8178-eb11-a812-000d3a480e2f}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>93df9bbc-8078-eb11-a812-000d3a480e2f</SdkMessageId>
+  <PluginTypeName>AddMsTeamsLinkToAppointmentPlugin.AddMsTeamsLinkToAppointmentActionHandler, AddMsTeamsLinkToAppointmentPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7081ae613b0521ec</PluginTypeName>
+  <PluginTypeId>b583797f-1c9a-4237-9afd-2b1edf87c148</PluginTypeId>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>AddMsTeamsLinkToAppointmentPlugin.AddMsTeamsLinkToAppointmentActionHandler: rc_GenerateTeamsMeetingLink of any Entity</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

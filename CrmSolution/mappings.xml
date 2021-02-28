@@ -1,0 +1,5 @@
+<Mapping>  
+    <!-- Match specific named files to an alternate folder -->  
+    <FileToFile map="PluginAssemblies\**\AddMsTeamsLinkToAppointmentPlugin.dll" to="..\AddMsTeamsLinkToAppointmentPlugin\AddMsTeamsLinkToAppointmentPlugin\bin\**\AddMsTeamsLinkToAppointmentPlugin.dll" />  
+    <FileToFile map="WebResources\rc_AppointmentLib486D0C46-0A79-EB11-A812-000D3A480E2F" to="..\WebResource\rc_AppointmentLib.js" /> 
+</Mapping>  

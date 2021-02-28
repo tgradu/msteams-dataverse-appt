@@ -115,7 +115,7 @@
                     <row />
                     <row />
                     <row />
-                    <row />
+                    <row height="auto" />
                   </rows>
                 </section>
                 <section name="scheduling information" showlabel="false" showbar="false" locklevel="1" id="{A83EF0B4-92A2-4442-AF94-DC43BA1C31D3}" IsUserDefined="0" layout="varwidth" columns="1">
@@ -178,7 +178,7 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell auto="true" showlabel="false" locklevel="0" rowspan="14" colspan="2" id="{EA609D20-9CD9-4988-86B7-0F0C367ADD10}">
+                      <cell auto="false" showlabel="false" locklevel="0" rowspan="14" colspan="2" id="{EA609D20-9CD9-4988-86B7-0F0C367ADD10}">
                         <labels>
                           <label description="Description" languagecode="1033" />
                         </labels>
@@ -197,7 +197,7 @@
                     <row />
                     <row />
                     <row />
-                    <row height="auto" />
+                    <row />
                   </rows>
                 </section>
               </sections>
@@ -208,7 +208,20 @@
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
-                  <rows></rows>
+                  <rows>
+                    <row>
+                      <cell id="{f696d4e2-a160-4e7e-a4ff-b966f932d4fb}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{e0b137b4-65aa-494e-aee1-8c8557662a5e}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
                 </section>
               </sections>
             </column>
@@ -239,9 +252,6 @@
           </row>
         </rows>
       </header>
-      <DisplayConditions FallbackForm="true" Order="2">
-        <Everyone />
-      </DisplayConditions>
       <events>
         <event name="onload" application="true" active="true">
           <InternalHandlers>
@@ -301,22 +311,22 @@
       </Navigation>
       <controlDescriptions>
         <controlDescription forControl="{ab395ba2-707b-c53b-edd7-e327ec2c7c8c}">
-          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}">
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}" formFactor="0">
             <parameters>
               <datafieldname>description</datafieldname>
             </parameters>
           </customControl>
-          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}" formFactor="1">
             <parameters>
-              <value>description</value>
+              <datafieldname>description</datafieldname>
             </parameters>
           </customControl>
-          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}" formFactor="2">
             <parameters>
-              <value>description</value>
+              <datafieldname>description</datafieldname>
             </parameters>
           </customControl>
-          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+          <customControl name="MscrmControls.RichTextEditor.RichTextEditorControl" formFactor="-1">
             <parameters>
               <value>description</value>
             </parameters>
@@ -326,6 +336,9 @@
       <formLibraries>
         <Library name="rc_AppointmentLib" libraryUniqueId="{14508669-08ca-d903-8a41-8837c0b82e76}" />
       </formLibraries>
+      <DisplayConditions FallbackForm="true" Order="2">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <LocalizedNames>
       <LocalizedName description="Appointment" languagecode="1033" />

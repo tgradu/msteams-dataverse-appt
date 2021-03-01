@@ -14,5 +14,5 @@
 
 [MicrosoftTeams Powershell Module]: <https://docs.microsoft.com/en-us/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide>
 [Grant Permissions]:<https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy>
-[Online Meetings] : <https://docs.microsoft.com/en-us/graph/api/application-post-onlinemeetings?view=graph-rest-1.0&tabs=http>
-[Richt Text Editor for Appointments]:<https://docs.microsoft.com/en-us/power-platform/admin/enable-rich-text-experience>
+[Online Meetings]: <https://docs.microsoft.com/en-us/graph/api/application-post-onlinemeetings?view=graph-rest-1.0&tabs=http>
+[Richt Text Editor for Appointments]: <https://docs.microsoft.com/en-us/power-platform/admin/enable-rich-text-experience>

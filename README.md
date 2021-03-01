@@ -8,7 +8,7 @@
 5. Enable [Richt Text Editor for Appointments].
 
 ## Installation
-1. Within \msteams-dataverse-appt\AddMsTeamsLinkToAppointmentPlugin\AddMsTeamsLinkToAppointmentPlugin\AddMsTeamsLinkToAppointmentActionHandler.cs populate the clientId, clientSecret and tenantId with the values obtained at Prerequisites point 1 
+1. Within [AddMsTeamsLinkToAppointmentActionHandler.cs] populate the clientId, clientSecret and tenantId with the values obtained at Prerequisites point 1 
 2. Compile Plugin.
 3. Pack Solution and install it to your Dataverse environment. 
 
@@ -16,3 +16,4 @@
 [Grant Permissions]:<https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy>
 [Online Meetings]: <https://docs.microsoft.com/en-us/graph/api/application-post-onlinemeetings?view=graph-rest-1.0&tabs=http>
 [Richt Text Editor for Appointments]: <https://docs.microsoft.com/en-us/power-platform/admin/enable-rich-text-experience>
+[AddMsTeamsLinkToAppointmentActionHandler.cs]: <https://github.com/tgradu/msteams-dataverse-appt/blob/main/AddMsTeamsLinkToAppointmentPlugin/AddMsTeamsLinkToAppointmentPlugin/AddMsTeamsLinkToAppointmentActionHandler.cs>
